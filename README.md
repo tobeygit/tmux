@@ -7,7 +7,10 @@
 vim ~/.tmux.conf
 
 # reload tmux config
-source-file ~/.tmux.conf
+tmux source-file ~/.tmux.conf
+
+# list tmux sessions
+tmux ls
 ```
 
 ## Changes
